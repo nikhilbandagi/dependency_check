@@ -5,7 +5,7 @@
 
 	<groupId>dependency_check</groupId>
 	<artifactId>com.dependency.maven</artifactId>
-	<version>0.0.1-SNAPSHOTS</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>com.dependency.maven</name>
@@ -54,14 +54,15 @@
 
 
 	<distributionManagement>
-		<snapshotRepository>
+		<!--<snapshotRepository>
 			<id>nexus</id>
 			<name>dependency_check</name>
 			<url>http://34.131.239.31:8081/repository/dependency_check/</url>
 		</snapshotRepository>
+                -->
 		<repository>
 			<id>nexus</id>
-			<name>maven-releases</name>
+			<name>dependency_check</name>
 			<url>http://34.131.239.31:8081/repository/dependency_check/</url>
 		</repository>
 	</distributionManagement>
