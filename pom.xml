@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>sonar_test</groupId>
-	<artifactId>com.sonar.maven</artifactId>
-	<version>3.1</version>
+	<groupId>dependency_check</groupId>
+	<artifactId>com.dependency.maven</artifactId>
+	<version>0.0.1-SNAPSHOTS</version>
 	<packaging>jar</packaging>
 
-	<name>com.sonar.maven</name>
+	<name>com.dependency.maven</name>
 	<url>http://maven.apache.org</url>
 
 	
@@ -57,12 +57,12 @@
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>maven-snapshots</name>
-			<url>http://34.131.239.31:8081/repository/maven-snapshots/</url>
+			<url>http://34.131.239.31:8081/repository/dependency_check/</url>
 		</snapshotRepository>
 		<repository>
 			<id>nexus</id>
 			<name>maven-releases</name>
-			<url>http://34.131.239.31:8081//repository/maven-releases/</url>
+			<url>http://34.131.239.31:8081/repository/dependency_check/</url>
 		</repository>
 	</distributionManagement>
 
