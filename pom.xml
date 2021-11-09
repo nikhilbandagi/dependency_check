@@ -5,7 +5,7 @@
 
 	<groupId>dependency_check_main</groupId>
 	<artifactId>com.dependency.maven</artifactId>
-	<version>1.5</version>
+	<version>1.6</version>
 	<packaging>jar</packaging>
 
 	<name>com.dependency.maven</name>
